@@ -1,0 +1,155 @@
+body {
+    background-color: aliceblue;
+    margin: 0;
+    text-align: center;
+    font-family: "montserrat", sans-serif;
+}
+
+/***************DIV TAGS****************/
+
+.top-container {
+    background-color: #DEF5E5;
+    height: 500px;
+}
+
+.middle-container {
+    background-color: #BCEAD5;
+    height: 1340px;
+}
+
+.bottom-container {
+    background-color: #3D8361;
+    height: 150px;
+}
+
+
+/*************ELEMENT TAGS**************/
+
+.head {
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 5.375rem;
+    color: #13005A;
+    position: relative;
+    bottom: 200px;
+}
+
+.sub-head {
+     font-size: 1.375rem;
+     columns: #13005A;
+     position: relative;
+     bottom: 250px;
+}
+
+h2 {
+    color: #13005A;
+    position: relative;
+    top: 50px;
+}
+
+.description {
+    position: relative;
+    top: 40px;
+}
+
+h3 {
+    color: #13005A;
+}
+
+.profile {
+    width: 50%;
+    margin: 0px auto 50px auto;
+    line-height: 2;
+}
+
+.myskills {
+    width: 50%;
+    margin: 100px auto 0px auto;
+}
+
+.skill-row {
+    text-align: justify;
+    line-height: 2;
+    margin: 100px auto 100px auto;
+}
+
+
+.btn {
+    position: relative;
+    top: 70px;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: montserrat;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+  .footer-link {
+    position: relative;
+    top: 50px;
+    color: white;
+    padding: 20px;
+    font-size: 1.275rem;
+  }
+
+  a:hover {
+    color: #03C988;
+  }
+
+  .copyright {
+    position: relative;
+    top: 80px;
+    color: white;
+  }
+
+/************IMAGE TAGS*****************/
+
+.coderimg {
+    width: 200px;
+    height: auto;
+    position: relative;
+    left: 400px;
+}
+
+.cloudimg {
+    position: relative;
+    right: 350px;
+    bottom: 250px;
+}
+
+.profileimg {
+    width: 200px;
+    height: auto;
+    position: relative;
+    top: 50px;
+}
+
+.htmlimg {
+    width: 150px;
+    float: left;
+    margin: 20px 50px 0px 0px;
+}
+
+.presentationimg {
+    width: 150px;
+    float: right;
+    margin: 20px 0px 0px 50px;
+}
